@@ -1,0 +1,286 @@
+* {
+  text-align: center;
+}
+
+.pc {
+  display: block;
+}
+
+.sp {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+}
+
+header {
+  z-index: 10;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+menu {
+  position: relative;
+  padding: 15px 0;
+  margin: 0 10px;
+  height: 75px;
+}
+
+@media screen and (max-width: 768px) {
+  menu {
+    height: 62px;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+menu .head-logo {
+  width: 128px;
+}
+
+@media screen and (max-width: 768px) {
+  menu .head-logo {
+    width: 90px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    margin-top: 0;
+  }
+}
+
+menu .head-text {
+  display: inline-block;
+  vertical-align: super;
+  letter-spacing: 0;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  menu .head-text {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 10px;
+  }
+}
+
+menu .contact {
+  position: absolute;
+  cursor: pointer;
+  right: 0px;
+  background-color: #da6b64;
+  color: white;
+}
+
+menu .pc {
+  top: 16px;
+  padding: 11px 40px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+
+menu .sp {
+  top: 0;
+  padding: 18px 11px;
+  height: 62px;
+}
+
+.intro-cover {
+  background-image: url("main.jpg");
+  background-position: center;
+  width: 100%;
+  padding-top: 75px;
+  background-size: cover;
+  height: 500px;
+  display: table;
+}
+
+@media screen and (max-width: 768px) {
+  .intro-cover {
+    background-image: url("mainsp.jpg");
+    height: 312px;
+    padding-top: 62px;
+  }
+}
+
+.intro-cover .intro {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 15px 0;
+}
+
+.intro-cover .intro .intro-strong {
+  font-size: 24px;
+}
+
+.intro-cover .intro .intro-logo {
+  width: 317px;
+  margin-bottom: 20px;
+}
+
+.intro-cover .intro p {
+  font-weight: 600;
+}
+
+.entry {
+  background-color: #ebb94d;
+  padding: 30px 0;
+}
+
+.entry p {
+  font-weight: 700;
+  color: white;
+  margin: 0 0 10px;
+}
+
+.entry div {
+  display: inline;
+  margin: 0 0 10px;
+  padding: 2px 4px;
+  font-size: 90%;
+  color: #c7254e;
+  background-color: #f9f2f4;
+  border-radius: 4px;
+}
+
+.entry .btn {
+  background-color: #da6b64;
+  max-width: 1028px;
+  border-radius: 50px;
+  margin: 35px 45px;
+  padding: 30px 120px;
+  cursor: pointer;
+}
+
+.entry .btn:hover {
+  background-color: #da6b64;
+}
+
+@media screen and (max-width: 768px) {
+  .entry .btn {
+    padding: 15px 20px;
+    margin: 25px 20px;
+  }
+}
+
+.introduction {
+  background-image: url(introbottom.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 587px;
+  padding: 40px 0;
+}
+
+.introduction .context {
+  padding: 30px 0;
+}
+
+.introduction .context p {
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+
+.introduction .context p b {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+  background: linear-gradient(transparent 70%, #ebb94d 70%);
+}
+
+.yellowbracketswide {
+  margin: 0 auto;
+  position: relative;
+  width: 860px;
+  max-width: calc(100% - 40px);
+  padding: 15px 0px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.yellowbracketswide h2 {
+  margin: 15px 0 10px 0;
+}
+
+.yellowbracketswide::before, .yellowbracketswide::after {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 50px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .yellowbracketswide::before, .yellowbracketswide::after {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.yellowbracketswide::before {
+  top: 0;
+  left: 0;
+  border-top: 4px solid #ebb94d;
+  border-left: 4px solid #ebb94d;
+}
+
+.yellowbracketswide::after {
+  bottom: 0;
+  right: 0;
+  border-bottom: 4px solid #ebb94d;
+  border-right: 4px solid #ebb94d;
+}
+
+.yellowbracketswide h2 {
+  font-size: 28px;
+}
+
+@media screen and (max-width: 768px) {
+  .yellowbracketswide h2 {
+    font-size: 18px;
+  }
+}
+
+.circle-row {
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .circle-row {
+    height: 60px;
+  }
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #ebb94d;
+  color: white;
+  display: inline-block;
+  padding: 0;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  top: -40px;
+  left: 0;
+  right: 0;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .circle {
+    font-size: 12px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    top: -30px;
+  }
+}
+/*# sourceMappingURL=index.css.map */
