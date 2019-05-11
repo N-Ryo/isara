@@ -101,7 +101,7 @@ menu {
 }
 
 .intro-cover {
-  background-image: url("main.jpg");
+  background-image: url("img/main.jpg");
   background-position: center;
   width: 100%;
   padding-top: 75px;
@@ -110,7 +110,7 @@ menu {
   display: table;
 
   @media screen and (max-width: 768px) {
-    background-image: url("mainsp.jpg");
+    background-image: url("img/mainsp.jpg");
     height: 312px;
     padding-top: 62px;
   }
@@ -173,7 +173,7 @@ menu {
 }
 
 .introduction {
-  background-image: url(introbottom.jpg);
+  background-image: url(img/introbottom.jpg);
   background-size: cover;
   background-position: center;
   height: 587px;
@@ -373,13 +373,13 @@ menu {
 }
 
 .aboutsecond {
-  background-image: url(aboutsecondbg.jpg);
+  background-image: url(img/aboutsecondbg.jpg);
   background-size: cover;
   background-position: center;
   padding: 40px 0;
   color: white;
   @media screen and (max-width: 768px) {
-    background-image: url(aboutsecondbgsp.jpg);
+    background-image: url(img/aboutsecondbgsp.jpg);
     padding: 30px;
   }
 }
@@ -456,13 +456,13 @@ menu {
 .teachers {
   padding: 40px 0;
   text-align: center;
-  background-image: url(teacherbg.jpg);
+  background-image: url(img/teacherbg.jpg);
   background-position: center;
   background-size: cover;
   color: #fff;
   @media screen and (max-width: 768px) {
     padding: 20px 0;
-    background-image: url(teacherbgsp.jpg);
+    background-image: url(img/teacherbgsp.jpg);
   }
   @media only screen and (max-width: 1190px) and (min-width: 768px) {
     padding: 50px;
@@ -562,11 +562,11 @@ menu {
   color: white;
   text-align: center;
   padding: 40px 0;
-  background-image: url(classbg.jpg);
+  background-image: url(img/classbg.jpg);
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 768px) {
-    background-image: url(classbgsp.jpg);
+    background-image: url(img/classbgsp.jpg);
     padding: 20px 0;
   }
   @media only screen and (max-width: 1190px) and (min-width: 768px) {
@@ -695,13 +695,13 @@ menu {
 }
 
 .bangkok {
-  background-image: url(bangkokbg.jpg);
+  background-image: url(img/bangkokbg.jpg);
   background-position: center;
   background-size: cover;
   padding: 80px 80px;
   color: white;
   @media screen and (max-width: 768px) {
-    background-image: url(bangkokbgsp.jpg);
+    background-image: url(img/bangkokbgsp.jpg);
     padding: 20px 15px;
   }
   h2, p {
@@ -806,11 +806,11 @@ menu {
   padding: 40px 0;
   text-align: center;
   color: #fff;
-  background-image: url(specialdetail.jpg);
+  background-image: url(img/specialdetail.jpg);
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 768px) {
-    background-image: url(specialdetailsp.jpg);
+    background-image: url(img/specialdetailsp.jpg);
     padding: 20px 10px;
   }
 }
